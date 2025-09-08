@@ -1,0 +1,405 @@
+\begin{thebibliography}{10}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \def\href#1#2{#2} \def\path#1{#1}\fi
+
+\bibitem{WE2011}
+W.~E, Principles of multiscale modeling, Cambridge University Press, New York,
+  2011.
+
+\bibitem{Tennekes1972}
+H.~Tennekes, J.~L. Lumley, A first course in turbulence, MIT Press, Cambridge,
+  1972.
+
+\bibitem{Arakawa1974}
+A.~Arakawa, W.~H. Schubert, Interaction of a cumulus cloud ensemble with the
+  large-scale environment, {Part I}, J. Atmos. Sci. 31 (1974) 674--701.
+
+\bibitem{Gent1989}
+P.~R. Gent, J.~C. McWilliams, Isopycnal mixing in ocear circulation models, J.
+  Phys. Oceanogr. 20 (1989) 150--155.
+
+\bibitem{Sagaut2006}
+P.~Sagaut, Large eddy simulation for incompressible flows, Springer, Berlin,
+  2006.
+
+\bibitem{WE2007}
+W.~E, E.~Engquist, X.~Li, W.~Ren, E.~Vanden-Eijnden, Heterogeneous multiscale
+  methods: a review, Commun. Comput. Phys. 2 (2007) 367--450.
+
+\bibitem{Grabowski1999}
+W.~W. Grabowski, P.~K. Smolarkiewicz, {CRCP: A cloud resolving convection
+  parameterization of the tropical atmosphere}, Phys. D 133~(1--4) (1999)
+  171--178.
+
+\bibitem{Grooms2013}
+I.~Grooms, A.~J. Majda, Efficient stochastic superparameterization for
+  geophysical turbulence, Proc. Natl. Acad. Sci. 110~(12) (2013) 4464--4469.
+
+\bibitem{Hammett1990}
+G.~W. Hammett, F.~W. Perkins, Fluid moment models for {L}andau damping with
+  application to the ion-temperature-gradient instability, Phys. Rev. Lett. 64
+  (1990) 3019--3022.
+
+\bibitem{Joseph2016}
+I.~Joseph, A.~M. Dimits, {Connecting collisionless Landau fluid closures to
+  collisional plasma physics models}, Contrib. Plasma Physics 56~(6-8) (2016)
+  504--510.
+
+\bibitem{JYJi2018}
+J.-Y. Ji, I.~Joseph, Electron parallel closures for the 3 + 1 fluid model,
+  Phys. Plasmas 25~(3) (2018) 032117.
+
+\bibitem{ChMa2020}
+C.~Ma, B.~Zhu, X.-Q. Xu, W.~Wang, {Machine learning surrogate models for Landau
+  fluid closure}, Phys. Plasmas 27~(4) (2020) 042502.
+
+\bibitem{Wang2020}
+L.~Wang, X.~Q. Xu, B.~Zhu, C.~Ma, Y.-a. Lei, {Deep learning surrogate model for
+  kinetic Landau-fluid closure with collision}, AIP Advances 10~(7) (2020)
+  075108.
+
+\bibitem{Matthews2021}
+A.~Mathews, M.~Francisquez, J.~W. Hughes, D.~R. Hatch, B.~Zhu, B.~N. Rogers,
+  Uncovering turbulent plasma dynamics via deep learning from partial
+  observations, Phys. Rev. E 104~(2) (2021) 025205.
+
+\bibitem{Laperre2022}
+B.~Laperre, J.~Amaya, S.~Jamal, G.~Lapenta, Identification of high order
+  closure terms from fully kinetic simulations using machine learning, Phys.
+  Plasmas 29~(3) (2022) 032706.
+
+\bibitem{Shukla2022}
+A.~Shukla, D.~Hatch, W.~Dorland, C.~Michoski, A learned closure method applied
+  to phase mixing in a turbulent gradient-driven gyrokinetic system in simple
+  geometry, J. Plasma Phys. 88~(1) (2022) 905880115.
+
+\bibitem{Grabert1982}
+H.~Grabert, Projection operator techniques in nonequilibrium statistical
+  mechanics, Springer, Berlin, 1982.
+
+\bibitem{Chorin2000}
+A.~J. Chorin, O.~H. Hald, R.~Kupferman, {Optimal prediction and the
+  Mori–Zwanzig representation of irreversible processes}, Proc. Natl. Acad.
+  Sci. USA 97~(7) (2000) 2968--2973.
+
+\bibitem{Chorin2002}
+A.~J. Chorin, O.~H. Hald, R.~Kupferman, Optimal prediction with memory, Physica
+  D 166~(3-4) (2002) 239--257.
+
+\bibitem{Parish2017}
+E.~J. Parish, K.~Duraisamy, {A dynamic subgrid scale model for large eddy
+  simulations based on the {M}ori-{Z}wanzig formalism}, J. Comput. Phys. 349
+  (2017) 154--175.
+
+\bibitem{KLin2021}
+K.~K. Lin, F.~Lu, {Data-driven model reduction, Wiener projections, and the
+  Koopman-Mori-Zwanzig formalism}, J. Comput. Phys. 424 (2021) 109864.
+
+\bibitem{Hinze2005}
+M.~Hinze, S.~Volkwein, Proper orthogonal decomposition surrogate models for
+  nonlinear dynamical systems: error estimates and suboptimal control, in:
+  P.~Benner, D.~C. Sorensen, V.~Mehrmann (Eds.), Dimension reduction of
+  large-scale systems, Springer, 2005, pp. 261--306.
+
+\bibitem{Chaturantabut2010}
+S.~Chaturantabut, D.~C. Sorensen, Nonlinear model reduction via discrete
+  empirical interpolation, SIAM J. Sci. Comput. 32~(5) (2010) 2737--2764.
+
+\bibitem{Carlberg2013}
+K.~Carlberg, C.~Farhat, J.~Cortial, D.~Amsallem, {The GNAT method for nonlinear
+  model reduction: effective implementation and application to computational
+  fluid dynamics and turbulent flows}, J. Comput. Phys. 242 (2013) 623--647.
+
+\bibitem{Benner2015}
+P.~Benner, S.~Gugercin, K.~Willcox, A survey of projection-based model
+  reduction methods for parametric dynamical systems, SIAM Rev. 57~(4) (2015)
+  483--531.
+
+\bibitem{Patera2017}
+A.~T. Patera, M.~Yano, {An LP empirical quadrature procedure for parametrized
+  functions}, C. R. Math. 355~(11) (2017) 1161--1167.
+
+\bibitem{Raissi2019}
+M.~Raissi, P.~Perdikaris, G.~E. Karniadakis, Physics-informed neural networks:
+  a deep learning framework for solving forward and inverse problems involving
+  nonlinear partial differential equations, J. Comput. Phys. 387 (2019)
+  686--707.
+
+\bibitem{Bhattacharya2021}
+K.~Bhattacharya, B.~Hosseini, N.~B. Kovachki, A.~M. Stuart, {Model reduction
+  and neural networks for parametric PDEs}, SMAI J. Comput. Math. 7 (2021)
+  121--157.
+
+\bibitem{Lauzon2024}
+J.~T. Lauzon, S.~W. Cheung, Y.~Shin, Y.~Choi, D.~M. Copeland, K.~Huynh, {S-OPT:
+  a points selection algorithm for hyper-reduction in reduced order models},
+  SIAM J. Sci. Comput. 46~(4) (2024) B474--B501.
+
+\bibitem{Majda2005}
+A.~J. Majda, R.~V. Abramov, M.~J. Grote, Information theory and stochastics for
+  multiscale nonlinear systems, Americal Mathematical Society, Providence,
+  2005.
+
+\bibitem{Pavliotis2008}
+G.~A. Pavliotis, A.~M. Stuart, Multiscale methods, Springer, New York, 2008.
+
+\bibitem{Berner2017}
+J.~Berner, U.~Achatz, L.~Batté, L.~Bengtsson, A.~D.~L. Cámara, H.~M.
+  Christensen, M.~Colangeli, D.~R.~B. Coleman, D.~Crommelin, S.~I. Dolaptchiev,
+  C.~L.~E. Franzke, P.~Friederichs, P.~Imkeller, H.~Järvinen, S.~Juricke,
+  V.~Kitsios, F.~Lott, V.~Lucarini, S.~Mahajan, T.~N. Palmer, C.~Penland,
+  M.~Sakradzija, J.-S. Von~Storch, A.~Weisheimer, M.~Weniger, P.~D. Williams,
+  J.-I. Yano, Stochastic parameterization: toward a new view of weather and
+  climate models, Bull. Amer. Meteor. Soc. 98~(3) (2017) 565--588.
+
+\bibitem{Ahmed2021}
+S.~E. Ahmed, S.~Pawar, O.~San, A.~Rasheed, T.~Illiescu, On closures for reduced
+  order models---a spectrum of first-principle to machine-learned avenues,
+  Phys. Rev. Fluids 33 (2021) 091301.
+
+\bibitem{Stensrud2013}
+D.~J. Stensrud, Parameterization schemes, Cambridge University Press,
+  Cambridge, 2013.
+
+\bibitem{Neelin2010}
+J.~D. Neelin, A.~Bracco, H.~Luo, J.~E. Meyerson, Considerations for parameter
+  optimization and sensitivity in climate models, Proc. Natl. Acad. Sci.
+  107~(50) (2010) 21349--21354.
+
+\bibitem{Kondrashov2015}
+D.~Kondrashov, M.~D. Chekroun, M.~Ghil, {Data-driven non-Markovian closure
+  models}, Phys. D 297 (2015) 33--55.
+
+\bibitem{Schneider2017}
+T.~Schneider, S.~Lan, A.~Stuart, J.~Teixeira, Earth system modeling 2.0: a
+  blueprint for models that learn from observations and targeted
+  high-resolution simulations, Geophys. Res. Lett. 44~(24) (2017) 12396--12417.
+
+\bibitem{NChen2019}
+N.~Chen, A.~J. Majda, A new efficient parameter estimation algorithm for
+  high-dimensional complex nonlinear turbulent dynamical systems with partial
+  observations, J. Comput. Phys. 397 (2019) 108836.
+
+\bibitem{Brenowitz2018}
+N.~D. Brenowitz, C.~S. Bretherton, Prognostic validation of a neural network
+  unified physics parameterization, Geophys. Res. Lett. 45~(12) (2018)
+  6289--6298.
+
+\bibitem{Pan2018}
+S.~Pan, K.~Duraisamy, Data-driven discovery of closure models, SIAM J. Appl.
+  Dyn. Syst. 17 (2018) 2381--2413.
+
+\bibitem{Rasp2018}
+S.~Rasp, M.~S. Pritchard, P.~Gentine, Deep learning to represent subgrid
+  processes in climate models, Proc. Natl. Acad. Sci. 115~(39) (2018)
+  9684--9689.
+
+\bibitem{BarSinai2019}
+Y.~Bar-Sinai, S.~Hoyer, J.~Hickey, M.~P. Brenner, Learning data-driven
+  discretizations for partial differential equations, Proc. Natl. Acad. Sci.
+  116~(31) (2019) 15344--15349.
+
+\bibitem{Bolton2019}
+T.~Bolton, L.~Zanna, Applications of deep learning to ocean data inference and
+  subgrid parameterization, J. Adv. Model. Earth Sy. 11~(1) (2019) 376--399.
+
+\bibitem{Lee2020}
+S.~Lee, M.~Kooshkbaghi, K.~Spiliotis, C.~I. Siettos, I.~G. Kevrekidis,
+  {Coarse-scale PDEs from fine-scale observations via machine learning}, Chaos
+  30 (2020) 013141.
+
+\bibitem{Yuval2020}
+J.~Yuval, P.~A. O'Gormann, Stable machine-learning parameterization of subgrid
+  processes for climate modeling at a range of resolutions, Nat. Commun. 11
+  (2020) 3295.
+
+\bibitem{Bae2022}
+H.~J. Bae, P.~Koumoutsakos, Scientific multi-agent reinforcement learning for
+  wall-models of turbulent flows, Nat. Commun. 13 (2022) 1443.
+
+\bibitem{Charalampopoulos2022}
+A.-T.~G. Charalampopoulos, T.~P. Sapsis, Machine-learning energy-preserving
+  nonlocal closures for turbulent fluid flows and inertial tracers, Phys. Rev.
+  Fluids 7 (2022) 024305.
+
+\bibitem{DQi2022}
+D.~Qi, J.~Harlim, Machine learning-based statistical closure models for
+  turbulent dynamical systems, Philos. Trans. Roy. Soc. A 380 (2022) 20210205.
+
+\bibitem{Bracco2025}
+A.~Bracco, J.~Brajard, H.~A. Dijkstra, P.~Hassanzadeh, C.~Lessig,
+  C.~Monteleoni, Machine learning for the physics of climate, Nat. Rev. Phys. 7
+  (2025) 6--20.
+
+\bibitem{Palmer2001}
+T.~N. Palmer, A nonlinear dynamical perspective on model error: a proposal for
+  non-local stochastic-dynamic parametrization in weather and climate
+  prediction models, Quart. J. Roy. Meteorol. Soc. 127 (2001) 279--304.
+
+\bibitem{Majda1999}
+A.~J. Majda, I.~Timofeyev, E.~Vanden~Eijnden, Models for stochastic climate
+  predicition, Proc. Natl. Acad. Sci. 96 (1999) 14687--14691.
+
+\bibitem{Crommelin2008}
+D.~Crommelin, E.~Vanden-Eijnden, {Subgrid-scale parameterization with
+  conditional Markov chains}, J. Atmos. Sci. 65~(8) (2008) 2661--2675.
+
+\bibitem{Chorin2015}
+A.~J. Chorin, F.~Lu, Discrete approach to stochastic parametrization and
+  dimension reduction in nonlinear dynamics, Proc. Natl. Acad. Sci. USA 112
+  (2015) 9804--9809.
+
+\bibitem{Gottwald2017}
+G.~A. Gottwald, D.~T. Crommelin, C.~L.~E. Franzke, Stochastic climate theory,
+  in: C.~L.~E. Franzke, T.~J. O'Kane (Eds.), Nonlinear and stochastic climate
+  dynamics, Cambridge University Press, Cambridge, 2017, pp. 209--240.
+
+\bibitem{Freeman2024}
+D.~C. Freeman, D.~Giannakis, J.~Slawinska, Quantum mechanics for closure of
+  dynamical systems, SIAM Multiscale Model. Simul. 22~(1) (2024) 283--333.
+
+\bibitem{Giannakis2019pre}
+D.~Giannakis, Quantum mechanics and data assimilation, Phys. Rev. E 100~(3)
+  (2019) 032207.
+
+\bibitem{Freeman2023}
+D.~Freeman, D.~Giannakis, B.~Mintz, A.~Ourmazd, J.~Slawinska, Data assimilation
+  in operator algebras, Proc. Natl. Acad. Sci. USA 120~(8) (2023) e2211115120.
+
+\bibitem{Hall2013}
+B.~C. Hall, Quantum theory for mathematicians, Springer, New York, 2013.
+
+\bibitem{Sakurai2021}
+J.~J. Sakurai, J.~Napolitano, Modern quantum mechanics, 3rd Edition, Cambridge
+  University Press, Cambridge, 2021.
+
+\bibitem{Takhtajan2008}
+L.~A. Takhtajan, Quantum mechanics for mathematicians, AMS, Providence, 2008.
+
+\bibitem{Baladi2000}
+V.~Baladi, Positive transfer operators and decay of correlations, World
+  Scientific, Singapore, 2000.
+
+\bibitem{Coifman2006}
+R.~R. Coifman, S.~Lafon, Diffusion maps, Appl. Comput. Harmon. Anal. 21 (2006)
+  5--30.
+
+\bibitem{Berry2020}
+T.~Berry, D.~Giannakis, J.~Harlim, Bridging data science and dynamical systems
+  theory, Notices Amer. Math. Soc. 67 (2020) 1336--1349.
+
+\bibitem{Giannakis2019acha}
+D.~Giannakis, Data-driven spectral decomposition and forecasting of ergodic
+  dynamical systems, Appl. Comput. Harmon. Anal. 47~(2) (2019) 338--396.
+
+\bibitem{Giannakis2019vsa}
+D.~Giannakis, A.~Ourmazd, J.~Slawinska, Z.~Zhao, Spatiotemporal pattern
+  extraction by spectral analysis of vector-valued observables, J. Nonlinear
+  Sci. 29~(5) (2019) 2385--2445.
+
+\bibitem{YChen2024}
+Y.~Chen, E.~N. Epperly, J.~A. Tropp, R.~J. Webber, Randomly pivoted {Cholesky}:
+  practical approximation of a kernel matrix with few entry evaluations, Comm.
+  Pure Appl. Math. 78 (2024) 995--1041.
+
+\bibitem{Vales2025evd}
+C.~Vales, D.~Giannakis, Eigenvalue decomposition of bistochastic kernel
+  matrices by low rank approximation, In preparation (2025).
+
+\bibitem{Vallis2017}
+G.~K. Vallis, Atmospheric and oceanic fluid dynamics, 2nd Edition, Cambridge
+  University Press, Cambridge, 2017.
+
+\bibitem{Whitham1999}
+G.~B. Whitham, Linear and nonlinear waves, Wiley, New York, 1999.
+
+\bibitem{Constantin1989}
+P.~Constantin, C.~Foias, B.~Nicolaenko, R.~Temam, Integral manifolds and
+  inertial manifolds for dissipative partial differential equations, Springer,
+  New York, 1989.
+
+\bibitem{Temam1997}
+R.~Temam, Infinite-dimensional dynamical systems in mechanics and physics, 2nd
+  Edition, Springer, New York, 1997.
+
+\bibitem{Aubry1991}
+N.~Aubry, R.~Guyonnet, R.~Lima, Spatiotemporal analysis of complex signals:
+  theory and applications, J. Stat. Phys. 64 (1991) 683--739.
+
+\bibitem{Coifman2008}
+R.~R. Coifman, Y.~Shkolnisky, F.~J. Sigworth, A.~Singer, Graph laplacian
+  tomography from unknown random projections, IEEE Trans. Image Process.
+  17~(10) (2008) 1891--1899.
+
+\bibitem{Coifman2013}
+R.~R. Coifman, M.~J. Hirn, Bi-stochastic kernels via asymmetric affinity
+  functions, Appl. Comput. Harmon. Anal. 35~(1) (2013) 177--180.
+
+\bibitem{Das2021}
+S.~Das, D.~Giannakis, J.~Slawinska, Reproducing kernel {Hilbert} space
+  compactification of unitary evolution groups, Appl. Comput. Harmon. Anal. 54
+  (2021) 75--136.
+
+\bibitem{Berry2016}
+T.~Berry, J.~Harlim, Variable bandwidth diffusion kernels, Appl. Comput.
+  Harmon. Anal. 40~(1) (2016) 68--96.
+
+\bibitem{Blank2017}
+M.~Blank, Ergodic averaging with and without invariant measures, Nonlinearity
+  30~(12) (2017) 4649--4664.
+
+\bibitem{LSYoung2002}
+L.-S. Young, What are {SRB} measures, and which dynamical systems have them?,
+  J. Stat. Phys. 108~(5/6) (2002) 733--754.
+
+\bibitem{LeVeque2002}
+R.~J. LeVeque, Finite volume methods for hyperbolic problems, Cambridge
+  University Press, New York, 2002.
+
+\bibitem{Timofeyev2025}
+I.~Timofeyev, A.~Schwarzmann, D.~Kuzmin, Application of machine learning and
+  convex limiting to subgrid flux modeling in the shallow-water equations,
+  Math. Comput. Simul. 238 (2025) 163--178.
+
+\bibitem{Rahimi2007}
+A.~Rahimi, B.~Recht, Random features for large-scale kernel machines, in:
+  {Advances in Neural Information Processing Systems}, Vol.~20, Curran
+  Associates, 2007, pp. 1177--1184.
+
+\bibitem{Giannakis2023}
+D.~Giannakis, A.~Henriksen, J.~A. Tropp, R.~Ward, Learning to forecast
+  dynamical systems from streaming data, SIAM J. Appl. Dyn. Syst. 22~(2) (2023)
+  527--558.
+
+\bibitem{Garreau2018}
+D.~Garreau, W.~Jitkrittum, M.~Kanagawa, Large sample analysis of the median
+  heuristic, arXiv:1707.07269 (2018).
+
+\bibitem{Sauer1991}
+T.~Sauer, J.~A. Yorke, M.~Casdagli, Embedology, J. Stat. Phys. 65~(3-4) (1991)
+  579--616.
+
+\bibitem{Zbilut1992}
+J.~P. Zbilut, C.~L. Webber, Embeddings and delays as derived from
+  quantification of recurrence plots, Phys. Lett. A 171~(3-4) (1992) 199--203.
+
+\bibitem{Marwan2007}
+N.~Marwan, M.~C. Romano, M.~Thiel, J.~Kurths, Recurrence plots for the analysis
+  of complex systems, Phys. Rep. 438~(5-6) (2007) 237--329.
+
+\bibitem{Botvinick2024}
+J.~Botvinick-Greenhouse, M.~Oprea, R.~Maulik, Y.~Yang, Measure-theoretic
+  time-delay embedding, arXiv:2409.08768 (2024).
+
+\bibitem{Sontag1998}
+E.~D. Sontag, Mathematical control theory, 2nd Edition, Springer, New York,
+  1998.
+
+\bibitem{Nielsen2010}
+M.~A. Nielsen, I.~L. Chuang, Quantum computation and quantum information, 10th
+  Edition, Cambridge University Press, New York, 2010.
+
+\end{thebibliography}
