@@ -19,6 +19,10 @@ Meteorological Society, 127(572),
 Holevo, A. S. (2001). Statistical structure of quantum
 theory. Springer Science & Business Media.
 
+An efficient description of large-scale atmospheric
+dynamics. Ph.D. thesis, Free University Amsterdam, 169 pp. [Available
+from KNMI, P.O. Box 201, 3730 AE De Bilt, the Netherlands.]
+
 ```
 latexmk
 ```
