@@ -110,7 +110,8 @@
         \item The kernel method generates a set of spatiotemporal basis functions ($\phi_\ell$) that are optimized to represent the system's dynamics.
     \end{itemize}
     \begin{figure}
-        \includegraphics[width=0.8\textwidth]{paper/vsabasis.pdf}
+        \centering
+        \includegraphics[height=0.55\textheight, keepaspectratio]{paper/vsabasis.pdf}
         \caption{Examples of the learned basis functions. They capture the essential dynamics (propagating wave fronts) and are invariant to spatial translation, making them very efficient.}
         \label{fig:vsa-basis}
     \end{figure}
@@ -119,7 +120,8 @@
 \begin{frame}{Results: Out-of-Sample Prediction}
     The trained model was tested on a new initial condition it had \textbf{not} seen during training.
     \begin{figure}
-        \includegraphics[width=0.9\textwidth]{paper/res01a.pdf}
+        \centering
+        \includegraphics[height=0.6\textheight, keepaspectratio]{paper/res01a.pdf}
         \caption{Prediction for an out-of-sample trajectory. Top: Resolved state ($h, q$). Bottom: Subgrid fluxes. (Left: True, Right: QMCl Prediction).}
         \label{fig:res01a}
     \end{figure}
