@@ -1,0 +1,80 @@
+\documentclass[10pt,aspectratio=169]{beamer}
+\beamertemplatenavigationsymbolsempty
+\title[]{\Large Journal Club: Graph neural networks are dynamic programmers (Dudzik, A.J. and Veli\v{c}kovi\'{c}, P.)}
+\author{\large S.~Litvinov}
+\setbeamertemplate{headline}{}
+\begin{document}
+\begin{frame}
+  \titlepage
+\end{frame}
+\begin{frame}{Introduction}
+
+\textbf{Context}
+\begin{itemize}
+  \item Neural algorithmic reasoning, i.e. building NNs able to execute algorithmic computation.
+  \item A NN will be better at learning to execute a reasoning task if its individual components align well with the target algorithm.
+  \item GNNs are claimed to align with Dynamic Programming (DP), but not theoretically quantified.
+\end{itemize}
+
+\textbf{Objectives}
+\begin{itemize}
+  \item Theoretically quantify where does the connection between GNN and DP come from.
+  \item Characterize how GNNs align with a target algorithm that we might want to simulate.
+\end{itemize}
+
+\textbf{Methods}
+\begin{itemize}
+  \item Category theory (\url{https://cats.for.ai}).
+  \item Observation of a diagrammatic abstraction of the GNN/DP computations.
+  \item Demonstration using the Bellman-Ford algorithm.
+\end{itemize}
+
+\end{frame}
+
+
+
+
+
+\begin{frame}{Category theory}
+
+\textit{''Category theory takes a bird's eye view of mathematics. From high in the sky, details become invisible, but we can spot patterns that were impossible to detect from ground level.''}
+
+Tom Leinster, Basic Category Theory
+
+\vspace{2ex}
+Disclaimer: \textit{''It requires a lot of initial investment to start appreciating CT.''} (cats4AI lectures)
+
+
+\end{frame}
+
+\begin{frame}{Category theory}
+
+\textbf{Compositionality} is central to category theory. It is the ability to:
+\begin{enumerate}
+\item build systems by composing them out of smaller subsystems;
+\item reason about the system in terms of its components.
+\end{enumerate}
+
+\vspace{2ex}
+
+Category theory is the study of compositionality. It enables formal visual representations.
+\end{frame}
+
+\begin{frame}{Graph neural networks (GNNs)}
+A \emph{message passing} updates nodes ($u$, $v$) features ($x_u$,
+$x_v$) in several iterations (layers):
+\begin{equation*}
+    x^{(l + 1)}_u = \phi^{(l)} \left(x^{(l)}_u, \bigoplus\limits_{v \in \mathcal{N}_u} \psi^{(l)}(x^{(l)}_u, x^{(l)}_v)\right),
+\end{equation*}
+where $\mathcal{N}_u$ is neighbourhood, $\bigoplus$ is a
+permutation-invariant \emph{aggregation function} (such as $\sum$ or
+$\max$). Functions $\psi$ and $\phi$ can be MLPs.
+
+\end{frame}
+
+\begin{frame}[allowframebreaks]
+  \bibliographystyle{abbrv}
+  \bibliography{main}
+  \nocite{*}
+\end{frame}
+\end{document}
