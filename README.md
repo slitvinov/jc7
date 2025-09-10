@@ -2,9 +2,9 @@
 
 https://giannakis.host.dartmouth.edu/wp-content/uploads/2025/08/2025_imsi_slides.pdf
 
-Freeman, D. C., Giannakis, D., & Slawinska, J. (2024). Quantum
-mechanics for closure of dynamical systems. Multiscale Modeling &
-Simulation, 22(1), 283-333. https://arxiv.org/abs/2505.07519
+Vales, C., Freeman, D. C., Slawinska, J., & Giannakis,
+D. (2025). Quantum mechanical closure of partial differential
+equations with symmetries. arXiv preprint arXiv:2505.07519.
 
 Freeman, D. C., Giannakis, D., & Slawinska, J. (2024). Quantum
 mechanics for closure of dynamical systems. Multiscale Modeling &
